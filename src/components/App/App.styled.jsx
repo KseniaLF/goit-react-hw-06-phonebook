@@ -18,4 +18,17 @@ export const AppContainer = styled.div`
     font-weight: 600;
     margin-bottom: 5px;
   }
+
+  button {
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: #8387d186;
+    border: 1px solid black;
+    cursor: pointer;
+
+    :hover {
+      box-shadow: 0px 0px 10px black;
+    }
+  }
 `;
